@@ -4,6 +4,7 @@ import Login from "./pages/Login";
 import Home from "./pages/Home";
 import Health from "./pages/Health";
 import Info from "./pages/Info/Info";
+import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 
@@ -12,6 +13,7 @@ const App = () => (
 
   <Router>
     <div>
+      <Navbar />
       <Wrapper>
         <Route exact path="/" component={Login} />
         <Route exact path="/Login" component={Login} />
