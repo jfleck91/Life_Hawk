@@ -1,8 +1,12 @@
 import React, { Component } from "react";
+import Navbar from "../../components/Navbar";
+
 
 const Info = () => (
+    
 <div>
-    <h1> test </h1>
+<Navbar />
+    <h1> Test Info Page </h1>
 </div>
 );
 

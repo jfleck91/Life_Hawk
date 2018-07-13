@@ -1,8 +1,13 @@
 import React, { Component } from "react";
+import Navbar from "../../components/Navbar";
+
 
 const Health = () => (
+    
 <div>
-    <h1> test </h1>
+<Navbar />
+
+    <h1> Test Health Page </h1>
 </div>
 );
 
