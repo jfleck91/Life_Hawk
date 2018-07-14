@@ -9,11 +9,12 @@ import { Grid } from 'react-bootstrap';
 
 const Info  = () => (
 
-<div>
+<div style={{background: "#e6f2ff"}}>
 
 <Navbar />
+<br /> <br />
 
-<Grid>
+<Grid style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center' ,width: '800px'}}>
     <h1> My Info </h1>
     <p>something to come later</p>
 
@@ -41,7 +42,7 @@ const Info  = () => (
 </Form>
  <br /> 
 
- <Table responsive>
+ <Table responsive style={{background: "white"}}>
   <thead>
     <tr>
       <th>#</th>
@@ -94,7 +95,7 @@ const Info  = () => (
 
  <br />
 
-<Table responsive>
+<Table responsive style={{background: "white"}}>
  <thead>
    <tr>
    <th>#</th>
@@ -142,7 +143,7 @@ const Info  = () => (
 
  <br />
 
-<Table responsive>
+<Table responsive style={{background: "white"}}>
  <thead>
    <tr>
      <th>#</th>
@@ -155,7 +156,7 @@ const Info  = () => (
    <tr>
      <td>1</td>
      <td>Peanuts</td>
-     <td>Anaphlaxia</td>
+     <td>Anaphylaxis</td>
      <td></td>
    </tr>
    <tr>
@@ -186,7 +187,7 @@ const Info  = () => (
 </Form>
  <br />
 
-<Table responsive>
+<Table responsive style={{background: "white"}}>
  <thead>
    <tr>
      <th>#</th>
@@ -211,9 +212,10 @@ const Info  = () => (
 
  </tbody>
 </Table>
+
+<br /><br /><br />
 </Grid>
 </div>
-
 
 );
 

@@ -12,15 +12,13 @@ import { Grid } from 'react-bootstrap';
 const Login = () => (
 
 
-  <div>
-  <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg">
-  <h1>LifeHawk</h1>
-  <h2>slogan to come later</h2>
+  <div style={{background: "#e6f2ff"}}>
+  <Hero backgroundImage={require('../../images/logo.jpg')}>
   </Hero>
 
   <br />
-
-  <Grid style={{display: 'flex', justifyContent: 'center'}}>
+  <br /><br />
+  <Grid style={{ justifyContent: 'center', alignItems: 'center', width: '700px',}}>
    <Form horizontal>
   <FormGroup controlId="formHorizontalEmail">
     <Col componentClass={ControlLabel} lg={12}>
@@ -58,9 +56,10 @@ const Login = () => (
     </Col>
   </FormGroup>
 </Form>
-</Grid>
 
-  </div>
+<br /><br />
+</Grid>
+</div>
 
 );
 

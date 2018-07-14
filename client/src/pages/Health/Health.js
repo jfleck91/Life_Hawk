@@ -1,19 +1,20 @@
 import React, { Component } from "react";
-import Navbar from "../../components/Navbar";
 import { Form } from 'react-bootstrap';
 import { FormGroup } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import { FormControl } from 'react-bootstrap';
 import { Table } from 'react-bootstrap';
 import { Grid } from 'react-bootstrap';
+import Navbar from "../../components/Navbar";
+
 
 const Health  = () => (
 
-<div>
+<div style={{background: "#e6f2ff"}}>
 
-<Navbar />
+<Navbar/>
 
-<Grid>
+<Grid style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center' ,width: '800px'}}>
     <h1> My Health </h1>
     <p>something to come later</p>
 
@@ -41,7 +42,7 @@ const Health  = () => (
 </Form>
  <br /> 
 
- <Table responsive>
+<Table responsive style={{background: "white"}}>
   <thead>
     <tr>
       <th>#</th>
@@ -101,7 +102,7 @@ const Health  = () => (
 
  <br />
 
-<Table responsive>
+<Table responsive style={{background: "white"}}>
  <thead>
    <tr>
      <th>#</th>
@@ -157,7 +158,7 @@ const Health  = () => (
 
  <br />
 
-<Table responsive>
+<Table responsive style={{background: "white"}}>
  <thead>
    <tr>
      <th>#</th>
@@ -200,7 +201,7 @@ const Health  = () => (
 
  <br />
 
-<Table responsive>
+<Table responsive style={{background: "white"}}>
  <thead>
    <tr>
      <th>#</th>
@@ -220,6 +221,7 @@ const Health  = () => (
  </tbody>
 </Table>
 </Grid>
+<br /><br /><br />
 </div>
 
 
