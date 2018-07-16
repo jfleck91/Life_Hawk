@@ -1,0 +1,25 @@
+{
+  "name": "life_hawk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "react-scripts build",
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfleck91/Life_Hawk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfleck91/Life_Hawk/issues"
+  },
+  "homepage": "https://github.com/jfleck91/Life_Hawk#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
