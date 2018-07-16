@@ -9,12 +9,12 @@ import { Grid } from 'react-bootstrap';
 
 const Info  = () => (
 
-<div style={{background: "#e6f2ff"}}>
+<div style={{backgroundImage: 'url(' + require('../../images/info.jpg') + ')',backgroundSize: 'cover',textAlign: 'center' }}>
 
 <Navbar />
 <br /> <br />
 
-<Grid style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center' ,width: '800px'}}>
+<Grid style={{ justifyContent: 'center', alignItems: 'center', maxWidth: '800px'}}>
     <h1> My Info </h1>
     <p>something to come later</p>
 
@@ -169,7 +169,7 @@ const Info  = () => (
 
 <br /> <br />
 
-    <h4> Notes </h4>
+    <h4> Emergency Contacts </h4>
 
  <br />
 

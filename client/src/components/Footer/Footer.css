@@ -1,7 +1,7 @@
 .footer {
   margin-top: -100px;
   min-height: 100px;
-  background: #cce5ff;
+  background: #1e77aa;
   position: relative;
 }
 
@@ -11,6 +11,10 @@
   left: 0;
   right: 0;
   padding: 3px;
-  background: #99c9ff
+  background: #2c2c2c
   ;
+}
+
+.h5{
+  color: white;
 }

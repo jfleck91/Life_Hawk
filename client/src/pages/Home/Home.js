@@ -1,16 +1,21 @@
 import React, { Component } from "react";
 import Navbar from "../../components/Navbar";
 import { Row } from 'react-bootstrap';
-import { Grid } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 import { Thumbnail } from 'react-bootstrap';
-import {  } from 'react-bootstrap';
-import {  } from 'react-bootstrap';
+import CarouselPage from "../../components/Carousel";
 
 const Home = () => (
 
-  <div style={{background: "#e6f2ff", textAlign: 'center'}}>
+  <div style={{backgroundImage: 'url(' + require('../../images/home.jpg') + ')',backgroundSize: 'cover',backgroundPosition: "center center", textAlign: 'center'}}>
+
+  
     <Navbar />
+    <CarouselPage />   
+    
+    
+    
+    
     <br /><br />
     
     <Row style={{ justifyContent: 'center'}}>

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "mdbreact": "^4.6.0",
     "react": "^16.4.1",
     "react-bootstrap": "^0.32.1",
     "react-center": "^1.1.1",
@@ -15,5 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-native-auth0": "^1.2.2"
   }
 }

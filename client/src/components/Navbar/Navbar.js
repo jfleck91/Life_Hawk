@@ -4,6 +4,7 @@ import "./Navbar.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 const Navbar = props => (
+  <nav style={{background: "#e6f2ff"}}>
   <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <div className="navbar-brand">
       LifeHawk
@@ -59,6 +60,7 @@ const Navbar = props => (
         </li>
       </ul>
     </div>
+  </nav>
   </nav>
 );
 

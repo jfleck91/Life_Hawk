@@ -3,7 +3,10 @@ import "./Footer.css";
 
 const Footer = () => (
   <footer className="footer">
-    <span>LifeHawk 2018</span>
+    <span>
+      <br/>
+      <p style={{color: "grey"}}>LifeHawk 2018</p>
+    </span>
   </footer>
 );
 
