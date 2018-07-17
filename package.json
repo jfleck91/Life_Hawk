@@ -11,7 +11,7 @@
     "start": "node index.js",
     "heroku-postbuild": "cd client && yarn && yarn run build"
   },
-  
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jfleck91/Life_Hawk.git"
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/jfleck91/Life_Hawk#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "path": "^0.12.7"
   }
 }
