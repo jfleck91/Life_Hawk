@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Navbar from "../../components/Navbar";
 import { Form } from 'react-bootstrap';
 import { FormGroup } from 'react-bootstrap';
