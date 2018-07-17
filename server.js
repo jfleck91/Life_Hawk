@@ -1,7 +1,7 @@
-import express from express
+var express = require ("express")
 var app = express()
 var port = process.env.PORT||3000
-import path from path
+var path = require ("path")
 app.use(express.static("client/build"))
 
 //app.get('*', function response(req, res) {
