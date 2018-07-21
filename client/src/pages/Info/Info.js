@@ -160,7 +160,7 @@ const Info  = () => (
    </tr>
    <tr>
      <td>2</td>
-     <td>amoxicilyn</td>
+     <td>Amoxicilyn</td>
      <td>Rash</td>
    </tr>
  </tbody>
@@ -198,14 +198,14 @@ const Info  = () => (
  <tbody>
    <tr>
      <td>1</td>
-     <td>Ben Rogie</td>
+     <td>Jane Doe</td>
      <td>Phoenix, AZ</td>
      <td>555-555-5555</td>
    </tr>
    <tr>
      <td>2</td>
-     <td>Matt Moldach</td>
-     <td>Phoenix, AZ</td>
+     <td>John Smith</td>
+     <td>Scottsdale, AZ</td>
      <td>555-555-5555</td>
    </tr>
 

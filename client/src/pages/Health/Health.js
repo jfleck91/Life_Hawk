@@ -13,7 +13,7 @@ const Health  = () => (
 <div style={{backgroundImage: 'url(' + require('../../images/info.jpg') + ')',backgroundSize: 'cover',textAlign: 'center' }}>
 
 <Navbar/>
-
+<br /> <br />
 <Grid style={{ justifyContent: 'center', alignItems: 'center',maxWidth: '800px'}}>
     <h1> My Health </h1>
     
@@ -57,21 +57,21 @@ const Health  = () => (
       <td>Trazodone</td>
       <td>150mg</td>
       <td>1x at bed</td>
-      <td>insomia</td>
+      <td>Insomia</td>
    
     </tr>
     <tr>
       <td>2</td>
-      <td>alprazolam</td>
+      <td>Alprazolam</td>
       <td>1mg</td>
-      <td>as needed</td>
+      <td>As needed</td>
       <td>Anxiety</td>
     </tr>
     <tr>
       <td>3</td>
-      <td>zyrtec</td>
+      <td>Zyrtec</td>
       <td>10 mg</td>
-      <td>1 daily</td>
+      <td>1 Daily</td>
       <td>Allergy</td>
     </tr>
   </tbody>
@@ -179,7 +179,7 @@ const Health  = () => (
      <td>2</td>
      <td>Dr Cole</td>
      <td>09/12/17</td>
-     <td>med refills</td>
+     <td>Med refills</td>
      <td>Anxiety</td>
    </tr>
  </tbody>
@@ -210,11 +210,11 @@ const Health  = () => (
  <tbody>
    <tr>
      <td>1</td>
-     <td>reminder to ask dr about higher dose of sleep med</td>
+     <td>Reminder to ask dr about higher dose of sleep med</td>
    </tr>
    <tr>
      <td>2</td>
-     <td>temp was 102 degrees today</td>
+     <td>Temp was 102 degrees today</td>
    </tr>
 
  </tbody>

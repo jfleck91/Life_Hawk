@@ -7,7 +7,8 @@ class CarouselPage extends Component {
       
       <Container>
         <br/>
-        <h4 className="mt-5 mb-2">Welcome!</h4>
+        <h1 className="mt-5 mb-2">Welcome!</h1>
+        <br />
         <Carousel
           activeItem={1}
           length={4}

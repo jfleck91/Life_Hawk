@@ -14,8 +14,6 @@ const Home = () => (
     <CarouselPage />   
     
     
-    
-    
     <br /><br />
     
     <Row style={{ justifyContent: 'center'}}>
@@ -37,7 +35,9 @@ const Home = () => (
 <br /><br /><br />
 
 <h2> About Us</h2>
-<p>. Having worked in the medical field for nearly five years. Ive learned the biggest issue facing consumers is the shear amount of information you need to keep track of when it comes to your health and insurance. This app allows users to keep track of all their insurance info, doctors, last appointments, medications, ongoing condition and much more all in one app. Our goal isnt just to help our users stay organized, but by staying organized we can help you live healthier, and in turn save you money.</p>
+<br />
+
+<p style={{marginLeft: "11%", marginRight: "11%"}}> Having worked in the medical field for nearly five years. Ive learned the biggest issue facing consumers is the shear amount of information you need to keep track of when it comes to your health and insurance. This app allows users to keep track of all their insurance info, doctors, last appointments, medications, ongoing condition and much more all in one app. Our goal isnt just to help our users stay organized, but by staying organized we can help you live healthier, and in turn save you money.</p>
 
 <br /><br /><br />
 
