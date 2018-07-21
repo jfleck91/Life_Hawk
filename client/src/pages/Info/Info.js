@@ -16,7 +16,6 @@ const Info  = () => (
 
 <Grid style={{ justifyContent: 'center', alignItems: 'center', maxWidth: '800px'}}>
     <h1> My Info </h1>
-    <p>something to come later</p>
 
     <br />
     <br /> <br />

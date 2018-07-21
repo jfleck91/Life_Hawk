@@ -16,8 +16,7 @@ const Health  = () => (
 
 <Grid style={{ justifyContent: 'center', alignItems: 'center',maxWidth: '800px'}}>
     <h1> My Health </h1>
-    <p>something to come later</p>
-
+    
     <br />
     <br /> <br />
 
